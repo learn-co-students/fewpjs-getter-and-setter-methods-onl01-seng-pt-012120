@@ -12,10 +12,4 @@ class Circle{
     get area(){
         return Math.PI*this.radius*this.radius
     }
-    set diameter(newDiameter){
-        return this.radius = newDiameter/2;
-    }
-    set circumference(newCircumference){
-        return this.radius = newCircumference/(2*Math.PI);
-    }
 }
